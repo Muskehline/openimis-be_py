@@ -11,7 +11,7 @@ jobs:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
-    - name: Build the hello-docker Docker image
+    - name: Build the docker Docker image
       run: |
          docker build . --tag ghcr.io/openimis/openimis-be:latest
          docker run ghcr.io/openimis/openimis-be:latest
