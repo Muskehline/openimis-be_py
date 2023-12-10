@@ -115,6 +115,30 @@
 		{
 			"name":"dhis2_etl",
 			"pip":"git+https://github.com/openimis/openimis-be-dhis2_etl_py.git@develop#egg=openimis-be-dhis2_etl"
+		},
+		{
+		  "name": "banks",
+		  "pip": "openimis-be-banks==1.4.1"
+		},
+		{
+		  "name": "grievance",
+		  "pip": "openimis-be-grievance==1.4.1"
+		},
+		{
+		  "name": "payrollcycle",
+		  "pip": "openimis-be-payroll_cycle==1.4.1"
+		},
+		{
+		  "name": "payroll",
+		  "pip": "openimis-be-payroll==1.4.1"
+		},
+		{
+		  "name": "programs",
+		  "pip": "openimis-be-programs==1.4.1"
+		},
+		{
+		  "name": "service_provider",
+		  "pip": "openimis-be-service_provider==1.4.1"
 		}
 	]
 }
